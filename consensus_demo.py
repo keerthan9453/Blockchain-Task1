@@ -1,7 +1,7 @@
 import random
 from collections import Counter
 
-print("🔍 Consensus Mechanism Simulation\n")
+print(" Consensus Mechanism Simulation\n")
 
 # PoW - Proof of Work: 3 Miners
 pow_validators = {
@@ -43,7 +43,7 @@ vote_count = Counter(votes)
 
 dpos_winner = vote_count.most_common(1)[0][0]
 
-print("🗳️ [DPoS] Delegated Proof of Stake:")
+print(" [DPoS] Delegated Proof of Stake:")
 print(f"Delegates: {delegates}")
 print(f"Votes Cast: {votes}")
 print(f"Vote Tally: {dict(vote_count)}")
